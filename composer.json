@@ -1,7 +1,7 @@
 {
 	"name": "onehat/phpexcel",
 	"description": "phpoffice/phpexcel v1.8.0 with custom modifications for styled charts",
-	"keywords": ["PHP","Excel","OpenXML","xlsx","xls","spreadsheet","phpexcel", "onebuild"],
+	"keywords": ["PHP","Excel","OpenXML","xlsx","xls","spreadsheet", "phpexcel", "onebuild"],
 	"homepage": "https://github.com/OneHatRepo/phpexcel",
 	"type": "library",
 	"license": "LGPL-2.1",
