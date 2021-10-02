@@ -1,0 +1,34 @@
+{
+	"name": "onehat/phpexcel",
+	"description": "phpoffice/phpexcel v1.8.0 with custom modifications for styled charts",
+	"keywords": ["PHP","Excel","OpenXML","xlsx","xls","spreadsheet","phpexcel", "onebuild"],
+	"homepage": "https://github.com/OneHatRepo/phpexcel",
+	"type": "library",
+	"license": "LGPL-2.1",
+	"authors": [
+		{
+			"name": "Scott Spuler",
+			"email": "info@onehat.com",
+			"homepage": "https://onehat.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": "^7.0",
+		"ext-mbstring": "*",
+		"ext-xml": "*",
+		"ext-xmlwriter": "*"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "2.*"
+	},
+	"recommend": {
+		"ext-zip": "*",
+		"ext-gd": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"PHPExcel": "Classes/"
+		}
+	}
+}
